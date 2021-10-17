@@ -9,7 +9,7 @@ print:
 
 	# load argument into edi for length calc
 	movl 12(%esp), %edi
-	# set eax and ecx to -1
+	# set eax to 0 and ecx to -1
 	xorl %eax, %eax
 	xorl %ecx, %ecx
 	notl %ecx
